@@ -14,6 +14,9 @@
 		BDF7E9DE2C58F3C2004EDB07 /* moneyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF7E9DD2C58F3C2004EDB07 /* moneyTests.swift */; };
 		BDF7E9E82C58F3C2004EDB07 /* moneyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF7E9E72C58F3C2004EDB07 /* moneyUITests.swift */; };
 		BDF7E9EA2C58F3C2004EDB07 /* moneyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF7E9E92C58F3C2004EDB07 /* moneyUITestsLaunchTests.swift */; };
+		BDF7E9F82C58F402004EDB07 /* Moderniz.otf in Resources */ = {isa = PBXBuildFile; fileRef = BDF7E9F72C58F402004EDB07 /* Moderniz.otf */; };
+		BDF7E9FC2C58FE07004EDB07 /* Nexa-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDF7E9FB2C58FE07004EDB07 /* Nexa-ExtraLight.ttf */; };
+		BDF7E9FE2C591F65004EDB07 /* homepage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF7E9FD2C591F65004EDB07 /* homepage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,10 @@
 		BDF7E9E32C58F3C2004EDB07 /* moneyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = moneyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDF7E9E72C58F3C2004EDB07 /* moneyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moneyUITests.swift; sourceTree = "<group>"; };
 		BDF7E9E92C58F3C2004EDB07 /* moneyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moneyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BDF7E9F72C58F402004EDB07 /* Moderniz.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Moderniz.otf; sourceTree = "<group>"; };
+		BDF7E9F92C58F433004EDB07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		BDF7E9FB2C58FE07004EDB07 /* Nexa-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nexa-ExtraLight.ttf"; sourceTree = "<group>"; };
+		BDF7E9FD2C591F65004EDB07 /* homepage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homepage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +101,12 @@
 		BDF7E9CB2C58F3C1004EDB07 /* money */ = {
 			isa = PBXGroup;
 			children = (
+				BDF7E9FA2C58F82C004EDB07 /* colors */,
+				BDF7E9F92C58F433004EDB07 /* Info.plist */,
 				BDF7E9CC2C58F3C1004EDB07 /* moneyApp.swift */,
+				BDF7E9F62C58F3DE004EDB07 /* fontz */,
 				BDF7E9CE2C58F3C1004EDB07 /* ContentView.swift */,
+				BDF7E9FD2C591F65004EDB07 /* homepage.swift */,
 				BDF7E9D02C58F3C2004EDB07 /* Assets.xcassets */,
 				BDF7E9D22C58F3C2004EDB07 /* Preview Content */,
 			);
@@ -125,6 +136,22 @@
 				BDF7E9E92C58F3C2004EDB07 /* moneyUITestsLaunchTests.swift */,
 			);
 			path = moneyUITests;
+			sourceTree = "<group>";
+		};
+		BDF7E9F62C58F3DE004EDB07 /* fontz */ = {
+			isa = PBXGroup;
+			children = (
+				BDF7E9FB2C58FE07004EDB07 /* Nexa-ExtraLight.ttf */,
+				BDF7E9F72C58F402004EDB07 /* Moderniz.otf */,
+			);
+			path = fontz;
+			sourceTree = "<group>";
+		};
+		BDF7E9FA2C58F82C004EDB07 /* colors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = colors;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,8 +258,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDF7E9FC2C58FE07004EDB07 /* Nexa-ExtraLight.ttf in Resources */,
 				BDF7E9D42C58F3C2004EDB07 /* Preview Assets.xcassets in Resources */,
 				BDF7E9D12C58F3C2004EDB07 /* Assets.xcassets in Resources */,
+				BDF7E9F82C58F402004EDB07 /* Moderniz.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +288,7 @@
 			files = (
 				BDF7E9CF2C58F3C1004EDB07 /* ContentView.swift in Sources */,
 				BDF7E9CD2C58F3C1004EDB07 /* moneyApp.swift in Sources */,
+				BDF7E9FE2C591F65004EDB07 /* homepage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +454,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"money/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = money/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -452,6 +483,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"money/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = money/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
