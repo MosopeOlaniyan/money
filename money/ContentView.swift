@@ -17,7 +17,9 @@ struct ContentView: View {
     
     var body: some View {
         
-       
+        NavigationStack {
+            
+            
             
             GeometryReader { geo in
                 
@@ -101,8 +103,9 @@ struct ContentView: View {
                     VStack {
                         NavigationLink(destination: homepage()) {
                             Text("submit").tint(.black)
-                            
+                                .font(.custom("Nexa-ExtraLight", size: 30))
                         }
+                    }
                 }
             }
         }

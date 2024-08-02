@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD5E4DCA2C5B9FBB00635FC7 /* Nexa-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD5E4DC92C5B9FBB00635FC7 /* Nexa-Heavy.ttf */; };
+		BD5E4DCB2C5B9FBB00635FC7 /* Nexa-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD5E4DC92C5B9FBB00635FC7 /* Nexa-Heavy.ttf */; };
+		BD5E4DCC2C5B9FBB00635FC7 /* Nexa-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD5E4DC92C5B9FBB00635FC7 /* Nexa-Heavy.ttf */; };
+		BD5E4DCE2C5BBC3100635FC7 /* jane.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5E4DCD2C5BBC3100635FC7 /* jane.swift */; };
+		BD5E4DD22C5BBC4B00635FC7 /* quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5E4DD12C5BBC4B00635FC7 /* quiz.swift */; };
+		BD5E4DD62C5BBC5E00635FC7 /* quiz2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5E4DD52C5BBC5E00635FC7 /* quiz2.swift */; };
+		BD5E4DDA2C5BBC6E00635FC7 /* quiz3.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5E4DD92C5BBC6E00635FC7 /* quiz3.swift */; };
+		BD5E4DDE2C5BBC9900635FC7 /* quiz4.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5E4DDD2C5BBC9900635FC7 /* quiz4.swift */; };
 		BDF7E9CD2C58F3C1004EDB07 /* moneyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF7E9CC2C58F3C1004EDB07 /* moneyApp.swift */; };
 		BDF7E9CF2C58F3C1004EDB07 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF7E9CE2C58F3C1004EDB07 /* ContentView.swift */; };
 		BDF7E9D12C58F3C2004EDB07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDF7E9D02C58F3C2004EDB07 /* Assets.xcassets */; };
@@ -37,6 +45,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BD5E4DC92C5B9FBB00635FC7 /* Nexa-Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nexa-Heavy.ttf"; sourceTree = "<group>"; };
+		BD5E4DCD2C5BBC3100635FC7 /* jane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jane.swift; sourceTree = "<group>"; };
+		BD5E4DD12C5BBC4B00635FC7 /* quiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quiz.swift; sourceTree = "<group>"; };
+		BD5E4DD52C5BBC5E00635FC7 /* quiz2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quiz2.swift; sourceTree = "<group>"; };
+		BD5E4DD92C5BBC6E00635FC7 /* quiz3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quiz3.swift; sourceTree = "<group>"; };
+		BD5E4DDD2C5BBC9900635FC7 /* quiz4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quiz4.swift; sourceTree = "<group>"; };
 		BDF7E9C92C58F3C1004EDB07 /* money.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = money.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDF7E9CC2C58F3C1004EDB07 /* moneyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moneyApp.swift; sourceTree = "<group>"; };
 		BDF7E9CE2C58F3C1004EDB07 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -101,6 +115,11 @@
 		BDF7E9CB2C58F3C1004EDB07 /* money */ = {
 			isa = PBXGroup;
 			children = (
+				BD5E4DCD2C5BBC3100635FC7 /* jane.swift */,
+				BD5E4DD12C5BBC4B00635FC7 /* quiz.swift */,
+				BD5E4DD52C5BBC5E00635FC7 /* quiz2.swift */,
+				BD5E4DD92C5BBC6E00635FC7 /* quiz3.swift */,
+				BD5E4DDD2C5BBC9900635FC7 /* quiz4.swift */,
 				BDF7E9FA2C58F82C004EDB07 /* colors */,
 				BDF7E9F92C58F433004EDB07 /* Info.plist */,
 				BDF7E9CC2C58F3C1004EDB07 /* moneyApp.swift */,
@@ -143,6 +162,7 @@
 			children = (
 				BDF7E9FB2C58FE07004EDB07 /* Nexa-ExtraLight.ttf */,
 				BDF7E9F72C58F402004EDB07 /* Moderniz.otf */,
+				BD5E4DC92C5B9FBB00635FC7 /* Nexa-Heavy.ttf */,
 			);
 			path = fontz;
 			sourceTree = "<group>";
@@ -258,6 +278,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD5E4DCA2C5B9FBB00635FC7 /* Nexa-Heavy.ttf in Resources */,
 				BDF7E9FC2C58FE07004EDB07 /* Nexa-ExtraLight.ttf in Resources */,
 				BDF7E9D42C58F3C2004EDB07 /* Preview Assets.xcassets in Resources */,
 				BDF7E9D12C58F3C2004EDB07 /* Assets.xcassets in Resources */,
@@ -269,6 +290,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD5E4DCB2C5B9FBB00635FC7 /* Nexa-Heavy.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +298,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD5E4DCC2C5B9FBB00635FC7 /* Nexa-Heavy.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,8 +310,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDF7E9CF2C58F3C1004EDB07 /* ContentView.swift in Sources */,
+				BD5E4DD62C5BBC5E00635FC7 /* quiz2.swift in Sources */,
 				BDF7E9CD2C58F3C1004EDB07 /* moneyApp.swift in Sources */,
+				BD5E4DDE2C5BBC9900635FC7 /* quiz4.swift in Sources */,
 				BDF7E9FE2C591F65004EDB07 /* homepage.swift in Sources */,
+				BD5E4DD22C5BBC4B00635FC7 /* quiz.swift in Sources */,
+				BD5E4DDA2C5BBC6E00635FC7 /* quiz3.swift in Sources */,
+				BD5E4DCE2C5BBC3100635FC7 /* jane.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
